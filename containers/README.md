@@ -1,6 +1,7 @@
 ## 1. Fix sh files
 
 sed -i 's/\r$//' spark/spark-master.sh
+
 sed -i 's/\r$//' spark/spark-worker.sh
 
 ## 2. Docker compose
